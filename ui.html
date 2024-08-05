@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gift Finder</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Gift Finder</h1>
+    </header>
+    <main>
+      <form id="giftFinderForm">
+        <input
+          type="text"
+          id="preferences"
+          placeholder="Recipient preferences"
+        />
+        <input type="number" id="age" placeholder="Age" />
+        <select id="gender">
+          <option value="">Select gender</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="other">Other</option>
+        </select>
+        <input type="number" id="budget" placeholder="Budget" />
+        <input type="text" id="occasion" placeholder="Occasion" />
+        <button type="submit">Find Gifts</button>
+      </form>
+      <div id="results"></div>
+    </main>
+    <footer>
+      <p>&copy; 2024 Gift Finder. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
